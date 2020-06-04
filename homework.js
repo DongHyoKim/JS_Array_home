@@ -1,5 +1,6 @@
 // 1번 숙제
 let votes = ["kim", "lee", "lee", "park", "park", "lee", "kim"];
+//votes라는 배열 데이터를 가지고 다음과 같은 결과를 만들어보세용
 // let resultkim = votes.filter(name => name === 'kim');
 // let resultlee = votes.filter(name => name === 'lee');
 // let resultpark = votes.filter(name => name === 'park');
@@ -13,6 +14,7 @@ votes.forEach(entity => {
         result1[entity]++;
     };
 });
+//console.log(result); // { kim 2, lee 3, park 2 }
 console.log(result1);
 
 
